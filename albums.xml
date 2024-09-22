@@ -1,0 +1,72 @@
+<albums>
+    <album>
+        <artist>Softy</artist>
+        <title>Blurred Memories</title>
+        <songs>15</songs>
+        <year>2024</year>
+        <genre>Lofi</genre>
+    </album>
+    <album>
+        <artist>Yasunori Mitsuda</artist>
+        <title>Chrono Trigger Original Soundtrack</title>
+        <songs>78</songs>
+        <year>1995</year>
+        <genre>Orquestal</genre>
+    </album>
+    <album>
+        <artist>Jaro Cristo, Sin H</artist>
+        <title>The boys of void</title>
+        <songs>10</songs>
+        <year>2020</year>
+        <genre>Rap</genre>
+    </album>
+    <album>
+        <artist>Notorious B.I.G</artist>
+        <title>Ready to Die</title>
+        <songs>19</songs>
+        <year>1994</year>
+        <genre>Rap</genre>
+    </album>
+    <album>
+        <artist>Mick Gordon</artist>
+        <title>Doom (Original Game Soundtrack)</title>
+        <songs>31</songs>
+        <year>2016</year>
+        <genre>Metal</genre>
+    </album>
+    <album>
+        <artist>Vito</artist>
+        <title>Peces en un Charco</title>
+        <songs>13</songs>
+        <year>2019</year>
+        <genre>Rap</genre>
+    </album>
+    <album>
+        <artist>Sharif</artist>
+        <title>A Ras de Sueño</title>
+        <songs>13</songs>
+        <year>2011</year>
+        <genre>Rap</genre>
+    </album>
+    <album>
+        <artist>memoryboy</artist>
+        <title>memory card</title>
+        <songs>11</songs>
+        <year>2024</year>
+        <genre>Lofi</genre>
+    </album>
+    <album>
+        <artist>Piezas</artist>
+        <title>Panorámica</title>
+        <songs>10</songs>
+        <year>2019</year>
+        <genre>Rap</genre>
+    </album>
+    <album>
+        <artist>Nas</artist>
+        <title>Illmatic</title>
+        <songs>10</songs>
+        <year>1994</year>
+        <genre>Rap</genre>
+    </album>
+</albums>
