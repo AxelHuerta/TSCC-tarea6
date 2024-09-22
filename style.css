@@ -1,0 +1,133 @@
+/* Axel Huerta Hernández */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat.ttf");
+}
+
+body {
+  background: #161a42;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+#file-input {
+  font-size: 1.3em;
+}
+
+.disc {
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(
+    circle,
+    rgba(62, 61, 75, 1) 0%,
+    rgba(0, 0, 0, 1) 53%
+  );
+  border-radius: 50%;
+  display: flex;
+}
+
+.disc div {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(248, 200, 73, 1) 0%,
+    rgba(196, 147, 26, 1) 88%
+  );
+  margin: auto;
+  display: flex;
+}
+
+.disc div div {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin: auto;
+  background: #161b41;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: #1e1e1e;
+  color: #fff;
+  margin-top: -150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.album {
+  margin: 0 1em 10em;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.genre,
+.songs,
+.year {
+  font-size: 0.7em;
+}
+
+input {
+  text-align: center;
+  width: 100%;
+  margin: 1em;
+}
+
+#display-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+@media (max-width: 1500px) {
+  #display-area {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  #display-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 648px) {
+  #display-area {
+    grid-template-columns: 1fr;
+  }
+}
